@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "753038264669",
+    "project_id": "vibeverse-de63f",
+    "storage_bucket": "vibeverse-de63f.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:753038264669:android:bdd48566fad04cb34800b4",
+        "android_client_info": {
+          "package_name": "com.example.vibeverse"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBeF6QTRlVOspYhQGaZ--g74ly8ApCCiB8"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
