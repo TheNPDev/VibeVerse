@@ -6,6 +6,7 @@ import com.bumptech.glide.Glide
 import com.bumptech.glide.load.engine.DiskCacheStrategy
 import com.bumptech.glide.request.RequestOptions
 import com.example.vibeverse.R
+import com.example.vibeverse.adapters.SwipeSongAdapter
 import com.example.vibeverse.exoplayer.MusicServiceConnection
 import dagger.Module
 import dagger.Provides
@@ -25,6 +26,10 @@ class AppModule {
     fun provideMusicServiceConnection(
         @ApplicationContext context: Context
     ) = MusicServiceConnection(context)
+
+    @Singleton
+    @Provides
+    fun provideSwipeSongAdapter() = SwipeSongAdapter()
 
     @Singleton
     @Provides

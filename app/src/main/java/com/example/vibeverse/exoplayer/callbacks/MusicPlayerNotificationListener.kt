@@ -3,9 +3,11 @@ package com.example.vibeverse.exoplayer.callbacks
 import android.app.Notification
 import android.content.Context
 import android.content.Intent
+import android.support.v4.media.session.MediaSessionCompat
 import androidx.core.content.ContextCompat
 import com.example.vibeverse.exoplayer.MusicService
 import com.example.vibeverse.other.Constants.NOTIFICATION_ID
+import com.google.android.exoplayer2.Player
 import com.google.android.exoplayer2.ui.PlayerNotificationManager
 
 class MusicPlayerNotificationListener(
@@ -37,4 +39,5 @@ class MusicPlayerNotificationListener(
             }
         }
     }
+
 }

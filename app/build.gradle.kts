@@ -5,7 +5,6 @@ plugins {
     id("com.google.dagger.hilt.android")
     kotlin("kapt")
     id ("kotlin-android")
-    id ("kotlin-android-extensions")
 }
 
 android {
@@ -37,6 +36,10 @@ android {
     }
     kotlinOptions {
         jvmTarget = "1.8"
+    }
+
+    buildFeatures {
+        viewBinding = true
     }
 }
 
